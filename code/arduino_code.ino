@@ -1,5 +1,4 @@
 /*
-  maze_tilt.ino
   MAZE TILT - simple version
   ------------------------------------------------------------
   What this program does:
