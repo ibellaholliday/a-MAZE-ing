@@ -5,7 +5,7 @@ In this group project, we designed and built an interactive maze, where the user
 
 # How it works
 
-The user stands directly below a camera, wearing a green hat. A [Wekinator model](https://github.com/ibellaholliday/a-MAZE-ing/tree/ccba64782a08cf00f17ce129554bf7258ee6c37d/wekinator) was trained to trace the movement of the centre of the hat, using ~15,000 samples over 49 data points along a 3x3 grid, shown below. The black box shows the camera field of vision, the red grid is the grid on the Wekinator camera, and the green crosses are where the green hat was positioned for each recording.
+The user stands directly below a camera, wearing a green hat. A [Wekinator model](https://github.com/ibellaholliday/a-MAZE-ing/tree/ccba64782a08cf00f17ce129554bf7258ee6c37d/wekinator) was trained to trace the movement of the centre of the hat, using ~15,000 samples over 49 data points along a 3x3 grid, shown below. The red grid is the grid on the Wekinator camera, and the green crosses are where the green hat was positioned for each recording.
 
 <img width="1476" height="1000" alt="IMG_A641986A7E22-1" src="https://github.com/user-attachments/assets/4e024b9f-6d31-4e08-8103-9acba3f54299" />
 
