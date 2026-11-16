@@ -13,7 +13,7 @@ We used a continuous Wekinator model to ensure smooth transition between, for ex
 
 These values were sent through a [Python script](https://github.com/ibellaholliday/a-MAZE-ing/blob/0d025133c3f52a3ad0c94deb455a369dbee7362c/code/maze_tracker.py) to Arduino IDE. The Arduino board was powered by a 5V battery pack, and a circuit was built in order to finely control the stepper motors for each axis of movement. 
 
-The [Arduino code](https://github.com/ibellaholliday/a-MAZE-ing/blob/main/code/arduino_code.ino) was written so that the user has direct control over two stepper motors, with two pulleys attached. The motors moved independently, so that one controlled the x-axis, and the other the y-axis of movement. Timing belts attached to the pulleys allowed smooth actuation of the maze with smaller, smoother movements than servos could provide. The maze platform was mounted on a ball joint, described below in the Physical Components section.
+The [Arduino code](https://github.com/ibellaholliday/a-MAZE-ing/blob/main/code/arduino_code.ino) was written so that the user has direct control over two stepper motors, with two [pulleys](https://github.com/ibellaholliday/a-MAZE-ing/blob/860254a33da3bdf9d20b8359064f35503a75213a/physical_build/pulleyspecs.pdf) attached. The motors moved independently, so that one controlled the x-axis, and the other the y-axis of movement. Timing belts attached to the pulleys allowed smooth actuation of the maze with smaller, smoother movements than servos could provide. The maze platform was mounted on a ball joint, described below in the Physical Components section.
 
 <img width="589" height="296" alt="Screenshot 2026-11-13 at 15 12 22" src="https://github.com/user-attachments/assets/bd6a2aff-348b-4cfc-86ab-a0476e121604" />
 
